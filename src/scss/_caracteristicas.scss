@@ -1,0 +1,32 @@
+#caracteristicas {
+    background-image: url("/assets/img/carta2.png");
+    background-repeat: no-repeat;
+    background-size: 650px 450px;
+    background-position: calc(100vw - 700px) 120px;
+    .caja {
+            text-align: initial;
+            padding: 200px 12px;
+    
+            h3 {
+                font-weight: bold;
+                margin-left: 15px;
+    
+                ul {
+                    margin-left: 5px;
+    
+                    li {
+                        margin: 12px 0px;
+                        font-weight: bold;
+                    }
+                }
+            }
+}
+
+}
+
+@media (min-width: 1200px) {
+    #caracteristicas {
+        background-position-x: calc(100vw - 800px);
+    }
+}
+

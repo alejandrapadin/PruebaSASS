@@ -1,0 +1,19 @@
+#sumate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    height: 50vh;
+
+    h2 {
+        font-size: 5vh;
+    }
+
+    button {
+        font-size: 3vh;
+    }
+}
+
